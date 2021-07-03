@@ -1,0 +1,30 @@
+div{
+    margin-top: 200px;
+    margin-left: 300px;
+    display: inline-block;
+
+}
+div a {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 3px solid #2b097a;
+  }
+
+  div a:hover:not(.active) {
+    background-color: #f8005f;
+    color: #fff;
+  }
+
+  div a:first-child {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+
+  div a:last-child {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+  
